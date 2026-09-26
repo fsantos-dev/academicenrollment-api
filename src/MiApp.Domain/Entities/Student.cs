@@ -58,7 +58,7 @@ public class Student
             Student = this,
             Subject = subject
         };
-
+        
         Enrollments.Add(enrollment);
     }
 
