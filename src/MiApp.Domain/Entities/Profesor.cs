@@ -8,16 +8,5 @@ public class Professor
     public DateTime CreatedAt {get; private set;}
     public List<Subject> Subjects {get; private set;} = [];
     
-    // public Professor(string firstName, string lastName)
-    // {
-    //     if (string.IsNullOrWhiteSpace(firstName))
-    //     {
-    //         throw new ArgumentException("Firstname is required");
-    //     }
-    //     if (string.IsNullOrWhiteSpace(lastName))
-    //     {
-    //         throw new ArgumentException("Lastname is required");
-    //     }
-    // }
 }
     

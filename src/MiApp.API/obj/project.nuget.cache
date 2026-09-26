@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/pEv9GYhxBc=",
+  "dgSpecHash": "HsIohvuUtJg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.API\\MiApp.Api.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.API\\MiApp.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andres Santos\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\Andres Santos\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\Andres Santos\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.11\\microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+    "C:\\Users\\Andres Santos\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512"
+  ],
   "logs": []
 }

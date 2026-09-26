@@ -1,10 +1,9 @@
 <Solution>
   <Folder Name="/SRC/">
+    <Project Path="src/MiApp.API/MiApp.API.csproj" />
     <Project Path="SRC/MiApp.Application/MiApp.Application.csproj" />
     <Project Path="SRC/MiApp.Domain/MiApp.Domain.csproj" />
     <Project Path="SRC/MiApp.Infrastructure/MiApp.Infrastructure.csproj" />
   </Folder>
-  <Folder Name="/SRC/MiApp.API/">
-    <Project Path="SRC/MiApp.API/MiApp.Api.csproj" />
-  </Folder>
+  <Folder Name="/SRC/MiApp.API/" />
 </Solution>
