@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Domain\\MiApp.Domain.csproj": {}
+    "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Domain\\MiApp.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Domain\\MiApp.Domain.csproj": {
+    "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Domain\\MiApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Domain\\MiApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Domain\\MiApp.Domain.csproj",
         "projectName": "MiApp.Domain",
-        "projectPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Domain\\MiApp.Domain.csproj",
+        "projectPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Domain\\MiApp.Domain.csproj",
         "packagesPath": "C:\\Users\\Andres Santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andres Santos\\AppData\\Roaming\\NuGet\\NuGet.Config"

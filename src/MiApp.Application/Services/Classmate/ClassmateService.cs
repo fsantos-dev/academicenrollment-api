@@ -2,7 +2,7 @@ using MiApp.Application.DTOs.Students;
 using MiApp.Application.Interfaces;
 using MiApp.Domain.Interfaces;
 
-namespace MiApp.Application.Services;
+namespace MiApp.Application.Services.Classmate;
 
 public class ClassmateService(
     IEnrollmentRepository enrollmentRepository,

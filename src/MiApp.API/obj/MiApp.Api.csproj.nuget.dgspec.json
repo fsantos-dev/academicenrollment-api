@@ -53,9 +53,23 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.17.10, )"
             }
           },
           "imports": [
@@ -518,8 +532,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Domain\\MiApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Domain\\MiApp.Domain.csproj"
+              "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Domain\\MiApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Domain\\MiApp.Domain.csproj"
               }
             }
           }
@@ -844,14 +858,14 @@
         }
       }
     },
-    "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Domain\\MiApp.Domain.csproj": {
+    "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Domain\\MiApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Domain\\MiApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Domain\\MiApp.Domain.csproj",
         "projectName": "MiApp.Domain",
-        "projectPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Domain\\MiApp.Domain.csproj",
+        "projectPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Domain\\MiApp.Domain.csproj",
         "packagesPath": "C:\\Users\\Andres Santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andres Santos\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1205,8 +1219,8 @@
               "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Application\\MiApp.Application.csproj": {
                 "projectPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Application\\MiApp.Application.csproj"
               },
-              "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Domain\\MiApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Domain\\MiApp.Domain.csproj"
+              "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Domain\\MiApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Domain\\MiApp.Domain.csproj"
               }
             }
           }

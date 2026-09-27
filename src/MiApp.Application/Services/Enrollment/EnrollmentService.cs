@@ -5,7 +5,7 @@ using MiApp.Application.Mappings;
 using MiApp.Domain.Entities;
 using MiApp.Domain.Interfaces;
 
-namespace MiApp.Application.Services;
+namespace MiApp.Application.Services.Enrollment;
 
 
 public class EnrollmentService(

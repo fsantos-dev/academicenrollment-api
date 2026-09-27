@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jLlU0K4XKj8=",
+  "dgSpecHash": "rPpzl2Cq0y8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Domain\\MiApp.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Domain\\MiApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
