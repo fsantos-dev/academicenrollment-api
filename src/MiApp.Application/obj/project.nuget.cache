@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "58EZZYx+SiQ=",
+  "dgSpecHash": "xzek3jTKmLo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Application\\MiApp.Application.csproj",
+  "projectFilePath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Application\\MiApp.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andres Santos\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\Andres Santos\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",

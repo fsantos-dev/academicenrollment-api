@@ -120,11 +120,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Application\\MiApp.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Application\\MiApp.Application.csproj",
       "projectName": "MiApp.Application",
-      "projectPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Application\\MiApp.Application.csproj",
+      "projectPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Application\\MiApp.Application.csproj",
       "packagesPath": "C:\\Users\\Andres Santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Application\\obj\\",
+      "outputPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andres Santos\\AppData\\Roaming\\NuGet\\NuGet.Config"

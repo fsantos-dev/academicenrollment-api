@@ -3,14 +3,14 @@ namespace MiApp.Domain.Entities;
 public class Student
 {
     public int Id { get; set; }
-    public string FirstName { get; private set; } = null!;
-    public string LastName { get; private set; } = null!;
-    public string Email { get; private set; } = null!;
-    public string PasswordHash { get; private set; } = null!;
-    public DateTime CreatedAt { get; private set; }
-    public bool IsActive { get; private set; }
+    public string FirstName { get; set; } = null!;
+    public string LastName { get; set; } = null!;
+    public string Email { get; set; } = null!;
+    public string PasswordHash { get; set; } = null!;
+    public DateTime CreatedAt { get; set; }
+    public bool IsActive { get; set; }
 
-    public List<Enrollment> Enrollments { get; private set; } = [];
+    public List<Enrollment> Enrollments { get; set; } = [];
 
     public Student(string firstName, string lastName, string email, string passwordHash)
     {
