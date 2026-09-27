@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MiApp.Application\MiApp.Application.csproj" />
+    <ProjectReference Include="..\MiApp.Infrastructure\MiApp.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
