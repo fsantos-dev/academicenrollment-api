@@ -23,7 +23,7 @@ public class AuthService(
         if(!validationResult.IsValid) throw new ValidationException(validationResult.Errors);
         var user = await studentRepository.GetByEmailAsync(request.Email);
         if(user == null) throw new InvalidCredentialsException("invalid credentials");
-        if(!passwordHasher.Verify(request.Password, user.PasswordHash)) throw new InvalidCredentialException("invalid credentials");
+        if(!passwordHasher.Verify(request.Password, user.PasswordHash)) throw new InvalidCredentialsException("invalid credentials");
         
         var token = tokenService.GenerateToken(user);
 
