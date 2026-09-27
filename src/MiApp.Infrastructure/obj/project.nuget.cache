@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "t045SAm+s58=",
+  "dgSpecHash": "kDozWetuLKQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andres Santos\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\Andres Santos\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\Andres Santos\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\Andres Santos\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.13\\microsoft.aspnetcore.http.abstractions.2.3.13.nupkg.sha512",
+    "C:\\Users\\Andres Santos\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.12\\microsoft.aspnetcore.http.features.2.3.12.nupkg.sha512",
     "C:\\Users\\Andres Santos\\.nuget\\packages\\microsoft.bcl.cryptography\\10.0.2\\microsoft.bcl.cryptography.10.0.2.nupkg.sha512",
     "C:\\Users\\Andres Santos\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.12\\microsoft.extensions.configuration.abstractions.10.0.12.nupkg.sha512",
     "C:\\Users\\Andres Santos\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

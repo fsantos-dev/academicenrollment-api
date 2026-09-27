@@ -58,8 +58,23 @@ public class Student
             Student = this,
             Subject = subject
         };
-        
+
         Enrollments.Add(enrollment);
     }
 
+    public void ChangeSubject(Enrollment enrollment, Subject newSubject)
+    {
+        if (Enrollments
+            //Check my enrollments, but exclude the one I'm editing.
+            .Where(e => e.Id != enrollment.Id)
+            //Do any of the other classes have the same teacher as the new one?
+            .Any(e => e.Subject.ProfessorId == newSubject.ProfessorId))
+        {
+            throw new ArgumentException(
+                "The student cannot enroll in two subjects with the same professor");
+        }
+
+        enrollment.SubjectId = newSubject.Id;
+        enrollment.Subject = newSubject;
+    }
 }
