@@ -9,5 +9,6 @@ public interface IEnrollmentRepository
     Task<Enrollment> CreateAsync(Enrollment enrollment);
     Task UpdateAsync (Enrollment enrollment);
     Task DeleteAsync(Enrollment enrollment);
+    Task<IEnumerable<Enrollment>> GetClassmatesAsync(int studentId);
 
 }

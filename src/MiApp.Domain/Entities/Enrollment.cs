@@ -9,4 +9,4 @@ public class Enrollment
     public Student Student {get; set;} = null!;
     public Subject Subject {get; set;} = null!;
 
-}
+}   

@@ -3,14 +3,14 @@ namespace MiApp.Domain.Entities;
 public class Student
 {
     public int Id { get; set; }
-    public string FirstName { get; private set; } = null!;
-    public string LastName { get; private set; } = null!;
-    public string Email { get; private set; } = null!;
-    public string PasswordHash { get; private set; } = null!;
-    public DateTime CreatedAt { get; private set; }
-    public bool IsActive { get; private set; }
+    public string FirstName { get; set; } = null!;
+    public string LastName { get; set; } = null!;
+    public string Email { get; set; } = null!;
+    public string PasswordHash { get; set; } = null!;
+    public DateTime CreatedAt { get; set; }
+    public bool IsActive { get; set; }
 
-    public List<Enrollment> Enrollments { get; private set; } = [];
+    public List<Enrollment> Enrollments { get; set; } = [];
 
     public Student(string firstName, string lastName, string email, string passwordHash)
     {
@@ -58,8 +58,23 @@ public class Student
             Student = this,
             Subject = subject
         };
-        
+
         Enrollments.Add(enrollment);
     }
 
+    public void ChangeSubject(Enrollment enrollment, Subject newSubject)
+    {
+        if (Enrollments
+            //Check my enrollments, but exclude the one I'm editing.
+            .Where(e => e.Id != enrollment.Id)
+            //Do any of the other classes have the same teacher as the new one?
+            .Any(e => e.Subject.ProfessorId == newSubject.ProfessorId))
+        {
+            throw new ArgumentException(
+                "The student cannot enroll in two subjects with the same professor");
+        }
+
+        enrollment.SubjectId = newSubject.Id;
+        enrollment.Subject = newSubject;
+    }
 }

@@ -22,8 +22,10 @@ public static class AuthMapper
             FirstName = student.FirstName,
             LastName = student.LastName,
             Email = student.Email,
+            IsActive = student.IsActive,
             Token = token,
-            ExpiresAt = expiresAt
+            ExpiresAt = expiresAt,
+           
         };
     }
 
