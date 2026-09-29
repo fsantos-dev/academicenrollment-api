@@ -24,6 +24,7 @@ public class ClassmateService(
             })
             .Select(group => new ClassmatesResponseDto
             {
+                SubjectId = group.Key.SubjectId,
                 SubjectName = group.Key.Name,
                 ProfessorName = group.Key.Professor.FirstName + ' ' + group.Key.Professor.LastName,
                 Classmates = group
