@@ -13,6 +13,7 @@ public static class EnrollmentMapper
             SubjectId = subject.Id,
             SubjectName = subject.Name,
             Credits = subject.Credits,
+            ProfessorId = subject.ProfessorId,
             ProfessorName = $"{subject.Professor.FirstName} {subject
             .Professor.LastName}" 
         };

@@ -3943,11 +3943,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
       "projectName": "MiApp.Infrastructure",
-      "projectPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Andres Santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\SRC\\MiApp.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andres Santos\\AppData\\Roaming\\NuGet\\NuGet.Config"

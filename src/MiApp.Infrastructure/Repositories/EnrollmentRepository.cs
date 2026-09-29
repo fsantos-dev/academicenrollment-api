@@ -32,6 +32,7 @@ public class EnrollmentRepository(AppDbContext context)
                 e.StudentId != studentId)
             .Include(e => e.Student)
             .Include(e => e.Subject)
+            .ThenInclude(s => s.Professor)
             .ToListAsync();
     }
 
