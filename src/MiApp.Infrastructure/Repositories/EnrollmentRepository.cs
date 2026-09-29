@@ -52,12 +52,6 @@ public class EnrollmentRepository(AppDbContext context)
         return enrollment;
     }
 
-    public async Task UpdateAsync(Enrollment enrollment)
-    {
-        context.Enrollments.Update(enrollment);
-        await context.SaveChangesAsync();
-    }
-
     public async Task DeleteAsync(Enrollment enrollment)
     {
         context.Enrollments.Remove(enrollment);

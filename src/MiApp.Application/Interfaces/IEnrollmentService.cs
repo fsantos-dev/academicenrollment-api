@@ -9,11 +9,7 @@ public interface IEnrollmentService{
     Task<EnrollmentResponseDto> CreateAsync(EnrollmentRequestDto request);
     //1. Registrar la inscripcion
 
-    Task<EnrollmentResponseDto> UpdateAsync(int id, EnrollmentRequestDto request);
-    //1. Localizar la inscripcion
-    //2. Actualizar la inscripcion
     
-
     Task DeleteAsync(int id);
     //1. Localizar la inscripcion
     //2. Eliminar la inscripcion

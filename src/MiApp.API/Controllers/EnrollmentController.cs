@@ -28,15 +28,6 @@ public class EnrollmentController(
         return Ok(response);
     }
 
-    [HttpPut("{id}")]
-    public async Task<ActionResult<EnrollmentResponseDto>> Update(
-        int id,
-        EnrollmentRequestDto request)
-    {
-        var response = await enrollmentService.UpdateAsync(id, request);
-
-        return Ok(response);
-    }
 
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)

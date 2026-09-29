@@ -56,25 +56,5 @@ public class EnrollmentService(
         return enrollments.Select(enrollment => EnrollmentMapper.ToEnrollmentResponseDto(enrollment, enrollment.Subject));
     }
 
-    public async Task<EnrollmentResponseDto> UpdateAsync(int id, EnrollmentRequestDto request)
-    {
-         var validationResult = await enrollmentRequestValidator.ValidateAsync(request);
-        if(!validationResult.IsValid) throw new ValidationException(validationResult.Errors);
-
-
-        var studentId = currentUserService.UserId;
-        var enrollment = await enrollmentRepository.GetByIdAsync(id);
-        if(enrollment == null)  throw new KeyNotFoundException("Enrollment not found");  
-        if(enrollment.StudentId != studentId) throw new UnauthorizedAccessException("You are not allowed to modify this enrollment");
-        var subject = await subjectRepository.GetByIdAsync(request.SubjectId);
-        if(subject == null) throw new KeyNotFoundException("Subject not found");
-        var student = await studentRepository.GetByIdAsync(studentId);
-        if(student == null) throw new KeyNotFoundException("Student not found");
-        student.ChangeSubject(enrollment, subject);
-        
-        await enrollmentRepository.UpdateAsync(enrollment);
-        return EnrollmentMapper.ToEnrollmentResponseDto(enrollment, subject);
-
-
-    }
+   
 }

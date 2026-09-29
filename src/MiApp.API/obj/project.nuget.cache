@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2OJitQyUIUc=",
+  "dgSpecHash": "mAGt1e0Zm9E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.API\\MiApp.API.csproj",
+  "projectFilePath": "C:\\Users\\Andres Santos\\Documents\\Inter\\academicenrollment-api\\src\\MiApp.API\\MiApp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andres Santos\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\Andres Santos\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
