@@ -224,7 +224,7 @@ public class AuthTests
 
         // Assert
         await act.Should()
-            .ThrowAsync<System.Security.Authentication.InvalidCredentialException>();
+            .ThrowAsync<InvalidCredentialsException>();
 
         _tokenService.Verify(
             x => x.GenerateToken(It.IsAny<Student>()),
