@@ -6,5 +6,6 @@ public class EnrollmentResponseDto
     public int SubjectId {get; set;}
     public string SubjectName {get; set;} = null!;
     public int Credits {get; set;}
+    public int ProfessorId {get; set;}
     public string ProfessorName {get; set;} = null!;
 }

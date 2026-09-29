@@ -19,11 +19,14 @@ public class ClassmateService(
             .GroupBy(e => new
             {
                 e.SubjectId,
-                e.Subject.Name
+                e.Subject.Name,
+                e.Subject.Professor
             })
             .Select(group => new ClassmatesResponseDto
             {
+                SubjectId = group.Key.SubjectId,
                 SubjectName = group.Key.Name,
+                ProfessorName = group.Key.Professor.FirstName + ' ' + group.Key.Professor.LastName,
                 Classmates = group
                     .Select(e => $"{e.Student.FirstName} {e.Student.LastName}")
                     .Distinct()
